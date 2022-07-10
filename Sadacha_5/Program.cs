@@ -7,3 +7,5 @@ int Power(int currentNumber)
     return currentNumber * currentNumber;
 }
 
+//На момент выполнения программа будет знать что такое ф-я Power
+//Поэтому выполнение программы - первыет три строчки
