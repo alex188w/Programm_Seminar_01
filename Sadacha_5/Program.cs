@@ -1,6 +1,6 @@
-﻿nt number = 5;
+﻿int number = 5;
 int result = Power(number);
-Console.Wrte.Line(result);
+Console.WriteLine(result);
 
 int Power(int currentNumber)
 {
