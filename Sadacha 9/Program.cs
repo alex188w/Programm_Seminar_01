@@ -6,7 +6,7 @@ Random rand = new Random();
 //<Тип данныхЮ имя = new <тип данных>();
 //for (int i = 0; i < 25; i++) - работа цикла for 
 //{
-int number = rand.Next(10, 100); // [10, 100)
+int number = rand.Next(10, 100); // [10, 100) - 100 не входит в данный промежуток
 Console.WriteLine(number);
 //};
 
