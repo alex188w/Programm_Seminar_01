@@ -67,4 +67,22 @@ Console.WriteLine("Расстояние от точки 1 до точки 2 со
                                                             //округление числа до второго знака
 }
 
-Zadacha_21();
+// Zadacha_21();
+
+void Zadacha_22()
+// Напишите программу, которая принимает на вход число (N) и выдаёт таблицу 
+// квадратов чисел от 1 до N
+{
+    Console.WriteLine("Введите число: ");
+    int Number =  Convert.ToInt32(Console.ReadLine());
+    int count = 1;
+    double Result = 1;
+    while (count <= Number)
+    {
+        Result = Math.Pow(count, 2);
+        count++;
+        Console.WriteLine(Result);
+    }
+}
+    Zadacha_22();
+    
